@@ -2,9 +2,15 @@ body {
   background: none !important;
 }
 
-.panel.give_me, .search_bar > input, .chat_item.active {
+.panel, .search_bar > input {
   background: none !important;
   color: #393939 !important;
+}
+.chat_item.top {
+  background: none !important;
+}
+.chat_item.active {
+  background: #f2f2f5 !important;
 }
 #search_bar {
   padding: 8px 18px !important;
@@ -98,11 +104,11 @@ body {
   right: 20px;
 }
 
-.panel.give_me {
+.panel {
   width: 250px !important;
   border-right: 1px solid #e0e1e5;
 }
-.panel.give_me .tab:after {
+.panel .tab:after {
   border-bottom: 1px solid #e0e1e5;
   left: 0 !important;
   right: 0 !important;
